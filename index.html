@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskTrackr 🕒</title>
+</head>
+<body>
+    <header>
+        <h1>TaskTrackr 🕒</h1>
+    </header>
+
+    <section id="task-input">
+        <input type="text" id="taskName" placeholder="Enter your task....">
+        <input type="datetime-local" id="taskTime" />
+        <button id="addTask">Add Task</button>
+    </section>
+
+    <section id="task-list">
+        <h2>Your Tasks</h2>
+        <ul id="tasks"></ul>
+    </section>
+
+    <!--This info is hidden initially(displayed after js code logic)-->
+    <div id="reminderPopup" class="hidden">
+        <p id="reminderText"></p>
+        <button id="closePopup">Close</button>
+    </div>
+
+
+</body>
+</html>
